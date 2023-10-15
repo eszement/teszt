@@ -15,5 +15,5 @@ jobs:
         uses: azure/arm-deploy@v1
         with:        
           subscriptionId: d5147816-b002-458a-ade9-75da2183ac3e
-           resourceGroupName: chema2 
-           template: ./vmdeploy.json
+          resourceGroupName: chema2 
+          template: ./vmdeploy.json
