@@ -8,7 +8,7 @@
       },
       "networkInterfaceName1": {
           "type": "string",
-          "defaultValue": "vm4486_z1"
+          "defaultValue": "vm6486_z1"
       },
       "enableAcceleratedNetworking": {
           "type": "bool",
@@ -16,7 +16,7 @@
       },
       "networkSecurityGroupName": {
           "type": "string",
-          "defaultValue": "VM4-nsg"
+          "defaultValue": "VM6-nsg"
       },
       "networkSecurityGroupRules": {
           "type": "array",
@@ -42,7 +42,7 @@
       },
       "virtualNetworkName": {
           "type": "string",
-          "defaultValue": "VM4-vnet"
+          "defaultValue": "VM6-vnet"
       },
       "addressPrefixes": {
           "type": "array",
@@ -63,7 +63,7 @@
       },
       "publicIpAddressName1": {
           "type": "string",
-          "defaultValue": "VM4-ip"
+          "defaultValue": "VM6-ip"
       },
       "publicIpAddressType": {
           "type": "string",
@@ -79,15 +79,15 @@
       },
       "virtualMachineName": {
           "type": "string",
-          "defaultValue": "VM4"
+          "defaultValue": "VM6"
       },
       "virtualMachineName1": {
           "type": "string",
-          "defaultValue": "VM4"
+          "defaultValue": "VM6"
       },
       "virtualMachineComputerName1": {
           "type": "string",
-          "defaultValue": "VM4"
+          "defaultValue": "VM6"
       },
       "virtualMachineRG": {
           "type": "string",
@@ -111,11 +111,11 @@
       },
       "adminUsername": {
           "type": "string",
-          "defaultValue": "mindenaron2"
+          "defaultValue": "mindenaron"
       },
       "adminPassword": {
           "type": "secureString",
-          "defaultValue": "5zEZ0gLz"
+          "defaultValue": "6,AHz&tLwE2K]?A"
       },
       "patchMode": {
           "type": "string",
