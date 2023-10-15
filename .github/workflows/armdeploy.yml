@@ -17,5 +17,5 @@ jobs:
         uses: azure/arm-deploy@v1
         with:        
           subscriptionId: d5147816-b002-458a-ade9-75da2183ac3e
-           resourceGroupName: 
+           resourceGroupName: github-action-arm-rg 
            template: ./vmdeploy.json
