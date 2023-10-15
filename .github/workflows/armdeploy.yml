@@ -2,20 +2,17 @@ on: [push]
 name: AzureARMDeploy
 
 jobs:
-  deploy:
-      runs-on: ubuntu-latest
-      steps:
 
-      - uses: actions/teszt@master
-
-      - name: Login to Azure
-        uses: azure/login@v1
-        with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
+  executesample:
+    runs-on: ubuntu-latest
+    steps:
+     
+    - uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
  
-      - name: Deploy ARM Template
-        uses: azure/arm-deploy@v1
-        with:        
-          subscriptionId: d5147816-b002-458a-ade9-75da2183ac3e
-          resourceGroupName: github-action-arm-rg 
-          template: ./vmdeploy.json
+    - uses: azure/arm-deploy@v1
+      with:        
+        subscriptionId: d5147816-b002-458a-ade9-75da2183ac3e
+        resourceGroupName: github-action-arm-rg 
+        template: ./vmdeploy.json
