@@ -6,7 +6,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
 
-      - uses: actions/checkput@master
+      - uses: actions/teszt@master
 
       - name: Login to Azure
         uses: azure/login@v1
